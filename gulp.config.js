@@ -24,6 +24,7 @@ module.exports = function(){
 
         less: client + 'styles/styles.less',
         server: server,
+        browserReloadDelay: 1000,
 
         /* Bower and npm locations */
         bower: {
@@ -44,7 +45,7 @@ module.exports = function(){
         };
 
         return options;
-    }
+    };
 
     return config;
 };
